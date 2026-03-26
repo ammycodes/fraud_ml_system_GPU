@@ -1,7 +1,9 @@
 
 # GPU stack
+# rapids-cu12
 cudf
-dask-cudf
+# dask-cudf
+# dask-cudf-cu12
 cuml
 
 # ML
