@@ -3,7 +3,7 @@
 name = "fraud-ml-system"
 version = "0.1.0"
 description = "GPU-first Fraud Detection ML Platform"
-authors = [{name="Your Name"}]
+authors = [{name="Amit Binjola", email="amitbinjolaw@gmail.com"}]
 dependencies = []
 
 [project.scripts]
