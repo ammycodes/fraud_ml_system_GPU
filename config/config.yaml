@@ -1,0 +1,35 @@
+
+experiment:
+  name: fraud_v1
+  seed: 42
+
+data:
+  train_path: data/train/
+  test_path: data/test/
+  has_separate_test: false
+  target: label
+
+split:
+  method: stratified
+  ratios:
+    train: 0.7
+    validation: 0.15
+    test: 0.15
+  random_seed: 42
+
+imbalance:
+  enabled: true
+  strategy: hybrid
+
+resources:
+  gpu:
+    enabled: true
+    retry:
+      max_retries: 5
+      wait_seconds: 10
+
+mlflow:
+  experiment_name: fraud
+
+logging:
+  level: INFO

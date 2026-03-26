@@ -1,0 +1,33 @@
+
+# GPU stack
+cudf
+dask-cudf
+cuml
+
+# ML
+xgboost
+lightgbm
+catboost
+scikit-learn
+
+# tuning
+optuna
+ray[tune]
+
+# data
+polars
+pandas
+numpy
+pyarrow
+
+# explainability
+shap
+
+# mlops
+mlflow
+
+# utils
+tqdm
+pyyaml
+psutil
+joblib
